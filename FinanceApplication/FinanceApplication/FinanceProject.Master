@@ -1,0 +1,284 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FinanceProject.master.cs" Inherits="FinanceApplication.FinanceProject" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <%-- <script>
+         $(document).ready(function () {
+             $('#list').change(function () {
+               
+                 var color = $('#list').val();
+                 
+                 $('#nav1').css('background', color);
+                 //$('ul').css('background', color);
+                 $('#drop,#A1,#A2').css('background', color);
+                
+             });
+         });
+       
+ </script>
+  --%>
+    <style>
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+nav {
+  padding: 5px;
+  text-align: center;
+  /*font-family: Raleway;*/
+   font-family:'Century Gothic';
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+   width: 150%;
+}
+#nav1 {
+  background-color:#9061e2
+  /*background-color:#aa00ff;*/
+  /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXN6N73onzQxPHEE076lIIrjLpkPS_pLjyR5N-nqq78y9-U0l-);*/
+ 
+}
+#navs{
+  color:white;
+  /*font-weight: bold;*/
+     font-family:'Century Gothic';
+}
+
+   #drop,#A1,#navs,#A2 {
+  background-color:#9061e2;
+  /*background-color:#aa00ff;*/
+  color:white;
+  font-size: 20px;
+  padding: 20px 0;
+  margin: 0 20px;
+   /*color: black;*/
+    font-weight: bold;
+    /*font-family:Arial;*/
+    /*font-family:Calibri (Body);*/
+    font-family:'Century Gothic';
+    font-size:20px;
+}
+
+#drop{
+  font-size: 20px;
+  /*color:black;*/
+  color:white;
+  font-weight: bold;
+    /*font-family:Arial;*/
+    /*font-family:Calibri (Body);*/
+     font-family:'Century Gothic';
+    font-size:20px;
+    margin-left:10px;
+}
+#f1
+{
+  padding:5%;
+}
+#f2
+{
+  padding:5%;
+}
+
+.dropdown-menu{
+  background-color: #9061e2;
+  /*color:white;*/
+  /*font-family:cursive; 
+  font-weight: bold;*/
+     font-family:'Century Gothic';
+}
+
+  #A3{
+      /*font-size: 40px;*/
+      /*color: black;*/
+       color: white;
+      font-family: 'Galada', cursive;
+    }
+  #footer {
+   position:fixed;
+   bottom: 0;
+   width: 100%;
+   background-image: url(http://www.wallpapers4u.org/wp-content/uploads/background_spots_bright_solid_69095_1920x1080.jpg);
+    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXN6N73onzQxPHEE076lIIrjLpkPS_pLjyR5N-nqq78y9-U0l-);*/
+   color: white;
+   text-align: center;
+   /*font-family: 'Galada', cursive;*/
+   /*padding:1%;*/
+   font-family:'Century Gothic';
+}
+
+nav a {font-size: 18px;}
+        #sub1,#sub2 {
+            color:white;
+            font-family:'Century Gothic'
+        }
+
+</style>
+   <%-- <script>
+        $(function () {
+
+            
+
+            $("#green").click(function () {
+                $("#nav1").css("background-color", "green");
+                $("#drop").css("background-color", "green");
+                $("#A1").css("background-color", "green");
+                $("#A2").css("background-color", "green");
+                $("#A3").css("background-color", "green");
+            });
+            $("#maroon").click(function () {
+                $("#nav1").css("background-color", "maroon");
+                $("#drop").css("background-color", "maroon");
+                $("#A1").css("background-color", "maroon");
+                $("#A2").css("background-color", "maroon");
+                $("#A3").css("background-color", "maroon");
+               
+            });
+        });
+    </script>--%>
+   <%-- <script>
+        function green()
+    {
+   
+        var link1 = document.getElementById("nav1");
+        link1.style.backgroundColor = 'green';
+        var link2 = document.getElementById("drop");
+            link2.style.color = 'green';
+            var link3 = document.getElementById("A1");
+            link3.style.color = 'green';
+            var link4 = document.getElementById("A2");
+            link4.style.color = 'green';
+            var link5 = document.getElementById("A3");
+            link5.style.color = 'green';
+        }
+
+
+        function maroon() {
+
+            var link1 = document.getElementById("nav1");
+            link1.style.backgroundcolor = 'maroon';
+              var link2 = document.getElementById("drop");
+            link2.style.color = 'maroon';
+        var link3 = document.getElementById("A1");
+            link3.style.color = 'maroon';
+            var link4 = document.getElementById("A2");
+            link4.style.color = 'maroon';
+            var link5 = document.getElementById("A3");
+            link5.style.color = 'maroon';
+        }
+        </script>--%>
+
+   <%-- <script>
+        $(document).ready(function () {
+        $('#list').change(function () {
+
+            var color = $('#list').val();
+            $('nav').css('background', color);
+            $('ul').css('background', color);
+            $('#drop,#A1,#A2').css('background', color);
+          })
+        })
+    </script>--%>
+<%-- <script>
+     var select = document.getElementById('list');
+     var bar = document.getElementById('nav1');
+     select.onchange = function () {
+         if (select == "Purple") {
+             bar.style.backgroundColor = 'blue';
+
+         }
+         else if (select == "Green") {
+             bar.style.backgroundColor = 'Green';
+
+         }
+         else if (select == "Maroon") {
+             bar.style.backgroundColor = 'red';
+
+         }
+     }
+ </script>--%>
+</head>
+    <%--<script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>--%>
+
+<body>
+    <form id="form1" runat="server">
+    <div id="divTemp" runat="server">
+     <nav class="navbar navbar-default" id="nav1" runat="server">
+<%--        <div class="container-fluid">--%>
+            <div class="navbar-header">
+<%--             <a class="navbar-brand" id="A3" href="Dashboard.aspx" style="font-family:Magneto;font-size:75px;color: white;">Magima</a>--%>
+                <a class="navbar-brand" id="A3" href="Dashboard.aspx">
+                  <img src="Images/Untitled.png"  height="45" width="270" style="margin-left:20px;border:hidden;margin-bottom:70px;"/>
+              </a>
+            </div>
+            <ul class="nav navbar-nav" id="li1" runat="server">
+                <li  id="l1"><a class="dropdown-toggle" id="drop" data-toggle="dropdown" href="#" runat="server">Customer</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="CustomerNew.aspx" id="sub1" runat="server">New Customer</a></li>
+                        <li><a href="CustomeSearchPage.aspx" id="sub2" runat="server">Existing Customer</a></li>
+                    </ul>
+                </li>
+                <li runat="server" id="l2"><a class="link" id="A1" href="CustomeSearchPage.aspx" runat="server">Loan</a></li> 
+                <li runat="server" id="l3"><a class="link" id="A2" href="Report1.aspx" runat="server">Reports</a></li>
+            </ul>
+<%--        </div>--%>
+ 
+      <%--<asp:Button ID="green" text="green" runat="server" OnClientClick="green();"/>
+         <asp:Button ID="maroon" Text="maroon" runat="server" OnClientClick="maroon();"/>--%>
+         <asp:Button ID="btn1" runat="server" Text="logout" OnClick="btn1_Click"/>
+         
+         <asp:DropDownList ID="d1" runat="server" AutoPostBack="true" OnSelectedIndexChanged="dd1_SelectedIndexChanged" style="margin-right:200px;">
+             <asp:ListItem>Select a theme</asp:ListItem>
+             <asp:ListItem value="#9061e2">purple</asp:ListItem>
+             <asp:ListItem value="#228B22">Green</asp:ListItem>
+             <asp:ListItem value="#800000">Maroon</asp:ListItem>
+         </asp:DropDownList>
+         
+
+         <%--<ul class="dropdown-menu">
+                  <!-- Menu Footer-->
+                  <li class="user-footer">
+                    <div class="pull-left">    
+
+                    <asp:Button ID="Button1" class="btn btn-default btn-flat" runat="server" Text="" style="display:none;color:black"
+                           ></asp:Button>
+                                             
+                      <asp:Button ID="btnChangePass" class="btn btn-default btn-flat" runat="server" 
+                            Text="Profile" ></asp:Button>
+                    </div>
+                    <div class="pull-right">                      
+                      <asp:Button ID="btnSignOut" class="btn btn-default btn-flat" runat="server" 
+                            Text="Sign out" ></asp:Button>
+                    </div>
+                  </li>
+                </ul>--%>
+       <%--  <select id="lis" style="margin-right:60px;margin-top:20px" runat="server" onchange="col">
+             <option value="#9061e2">Purple</option>
+             <option value="#228B22">Green</option>
+             <option value="#800000">Maroon</option>
+         </select>--%>
+         <%--<asp:Button ID="theme" runat="server" text="apply" />--%>
+    </nav>
+        
+    <div id="footer" runat="server"> &copy; All rights reserved by KKM SOFT (P) LTD - 2018</div>
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">         
+        </asp:ContentPlaceHolder>
+
+    </div>
+    
+    </form>	
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+C:\Users\mohan.KKM\Asp.net Finance\FinanceApplication\FinanceApplication\bin\FinanceApplication.dll
+C:\Users\mohan.KKM\Asp.net Finance\FinanceApplication\FinanceApplication\bin\FinanceApplication.pdb
+C:\Users\mohan.KKM\Asp.net Finance\FinanceApplication\FinanceApplication\obj\Release\FinanceApplication.csprojResolveAssemblyReference.cache
+C:\Users\mohan.KKM\Asp.net Finance\FinanceApplication\FinanceApplication\obj\Release\FinanceApplication.dll
+C:\Users\mohan.KKM\Asp.net Finance\FinanceApplication\FinanceApplication\obj\Release\FinanceApplication.pdb

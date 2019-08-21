@@ -1,0 +1,20 @@
+C:\Users\mohan.KKM\Asp.net Finance\FinanceApplication\FinanceApplication\bin\FinanceApplication.dll
+C:\Users\mohan.KKM\Asp.net Finance\FinanceApplication\FinanceApplication\bin\FinanceApplication.pdb
+C:\Users\mohan.KKM\Asp.net Finance\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.csprojResolveAssemblyReference.cache
+C:\Users\mohan.KKM\Asp.net Finance\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.dll
+C:\Users\mohan.KKM\Asp.net Finance\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.pdb
+E:\FinanceApplication\FinanceApplication\bin\FinanceApplication.dll
+E:\FinanceApplication\FinanceApplication\bin\FinanceApplication.pdb
+E:\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.csprojResolveAssemblyReference.cache
+E:\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.dll
+E:\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.pdb
+E:\Mohan_latest\FinanceApplication\FinanceApplication\bin\FinanceApplication.dll
+E:\Mohan_latest\FinanceApplication\FinanceApplication\bin\FinanceApplication.pdb
+E:\Mohan_latest\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.csprojResolveAssemblyReference.cache
+E:\Mohan_latest\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.dll
+E:\Mohan_latest\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.pdb
+E:\Mohan_latest\Magima\FinanceApplication\FinanceApplication\bin\FinanceApplication.dll
+E:\Mohan_latest\Magima\FinanceApplication\FinanceApplication\bin\FinanceApplication.pdb
+E:\Mohan_latest\Magima\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.csprojResolveAssemblyReference.cache
+E:\Mohan_latest\Magima\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.dll
+E:\Mohan_latest\Magima\FinanceApplication\FinanceApplication\obj\Debug\FinanceApplication.pdb
